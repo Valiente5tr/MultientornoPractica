@@ -6,12 +6,12 @@
  */
 
 window.APP_CONFIG = {
-  environment: "develop",
-  version: "v0.2.0-dev",
+  environment: "staging",
+  version: "v0.2.0-staging",
   updatedAt: "2026-04-09",
   changes: [
-    "Se actualizó la versión en develop",
-    "Se agregó un cambio visible antes de promover",
-    "Se mantiene staging sin cambios hasta la promoción"
+    "Se promovió una versión desde develop a staging",
+    "La versión ya está publicada en el entorno de validación",
+    "La interfaz permite ver claramente el entorno actual"
   ]
 };
